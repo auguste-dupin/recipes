@@ -3,9 +3,9 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///recipes-ext.sqlite3"  # Change this
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///recipes.sqlite3"  # Change this
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-app.secret_key = "p.AEdsAZda@zdazDAZD@azzaes-dsd41ADa"  # Change this
+# app.secret_key = "p.AEdsAZda@zdazDAZD@azzaes-dsd41ADa"  # Change this
 db = SQLAlchemy(app)
 
 
