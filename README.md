@@ -4,6 +4,7 @@
 This is an OpenSource crowd-sourced cooking recipes website, this is a personal project
 but feel free to fork it and edit any code to your needs just keep it open source as the ``LICENSE`` implies.
 
+Let's see what we do
 
 ## Development setup
 
